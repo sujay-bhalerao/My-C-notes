@@ -1,0 +1,19 @@
+#include<stdio.h>
+#include<stdlib.h>
+
+void main()
+{
+    int speed, distance, time;
+    
+    printf("\n Enter distance in Miles : ");
+        scanf("%d",&distance);
+    
+    printf("\n Enter time in Hours : ");
+        scanf("%d",&time);
+        
+        speed = distance/time;
+        
+   printf("\n Travelled %d distance in %d time at the speed of %d \n", distance, time, speed);
+ 
+
+}
