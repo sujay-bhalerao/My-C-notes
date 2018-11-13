@@ -1,0 +1,17 @@
+#include<stdio.h>
+#include<stdlib.h>
+
+void main()
+{
+	printf("Programe to measure the area of a rectangle\n");
+	float length, breadth, a;
+
+	printf("Enter the length of the rectangle :\n");
+		scanf("%f",&length);
+	printf("Enter the breadth of the rectangle :\n");
+		scanf("%f",&breadth);
+
+	a = length * breadth;
+
+	printf("Area of the rectangle is %f \n",a);
+}	
