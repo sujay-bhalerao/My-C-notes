@@ -1,0 +1,19 @@
+#include<stdio.h>
+#include<stdlib.h>
+
+void main()
+{
+	   printf("Programe for calculating time\n\n");
+
+	int time, speed, distance;
+
+	  printf("\n Enter speed mph : ");
+	  	scanf("%d",&speed);
+
+	  printf("\n Enter distance in miles:");
+		scanf("%d",&distance);
+
+	  time = distance/speed;	
+
+	  printf("\n Travelled at the speed of %d and covered %d miles in %d hours \n\n",speed ,distance ,time);
+}	  
